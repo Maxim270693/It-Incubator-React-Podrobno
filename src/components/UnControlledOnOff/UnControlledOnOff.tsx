@@ -1,28 +1,29 @@
 import React, {useState} from "react";
-import s from './OnOff.module.css'
+//import s from './OnOff.module.css'
 
 type OnOffPropsType = {
     on: boolean
-    onChange: (on: boolean) => void
+    onChange: (on:boolean) => void
 }
 
 
-export function OnOff(props: OnOffPropsType) {
+export function UnControlledOnOff(props: OnOffPropsType) {
 
+    let [state,setState] = useState(false)
 
     const onStyle ={
         width: '30px',
         height: '20px',
         border: '1px solid #000',
         display: 'inline-block',
-        backgroundColor: props.on ? 'green' : 'white'
+        backgroundColor: state ? 'green' : 'white'
     }
     const offStyle ={
         width: '30px',
         height: '20px',
         border: '1px solid #000',
         display: 'inline-block',
-        backgroundColor: props.on ? 'white' : 'red'
+        backgroundColor: state ? 'white' : 'red'
     }
 
     const indicatorStyle = {
@@ -32,16 +33,22 @@ export function OnOff(props: OnOffPropsType) {
         borderRadius: '5px',
         display: 'inline-block',
         margin: '6px',
-        backgroundColor: props.on ? 'green' : 'red'
+        backgroundColor: state ? 'green' : 'red'
     }
 
-    const onHandler = () => {props.onChange(true)}
-    const offHandler = () => {props.onChange(false)}
+    const onHandler = () => {
+        setState(true)
+        props.onChange(true)
+    }
+    const offHandler = () => {
+        setState(false)
+        props.onChange(false)
+    }
 
 
     return(
-        <div className={s.blocks}>
-            <span style={onStyle} onClick={ onHandler }>On</span>
+        <div >
+            <span style={onStyle} onClick={ onHandler } >On</span>
             <span style={offStyle} onClick={ offHandler }>Off</span>
             <span style={indicatorStyle} ></span>
         </div>

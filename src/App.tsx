@@ -2,15 +2,16 @@ import React, {useState} from 'react';
 import './App.css';
 import {Accordion} from "./components/accordion/Accordion";
 import {Rating, RatingValueType} from "./components/rating/Rating";
-import {OnOff} from "./components/OnOff/OnOff";
-import {UnControlledAccordion} from "./components/UnControlledaccordion/UnControlledAccordion";
 import {UnControlledRating} from "./components/UnControlledRating/UnControlledRating";
+import {UnControlledOnOff} from './components/UnControlledOnOff/UnControlledOnOff';
+import { OnOff } from './components/OnOff/OnOff';
 
 function App() {
     console.log('app rendering')
 
     let[ratingValue,setRatingValue] = useState<RatingValueType>(0)
     let[accordionCollapsed,setAccordionCollapsed] = useState<boolean>(false)
+    let[switchOn,setsSwitchOn] = useState<boolean>(false)
 
   return (
     <div className="App">
@@ -29,7 +30,10 @@ function App() {
         {/*<UnControlledRating value={3}/>*/}
         {/*<UnControlledRating value={4}/>*/}
         {/*<UnControlledRating value={5}/>*/}
-        {/*<OnOff/>*/}
+        {/*<OnOff on={switchOn} onChange={ (on) => {setsSwitchOn(on)} }/>*/}
+
+        <UnControlledOnOff on={switchOn} onChange={setsSwitchOn}/> {switchOn.toString()}
+
     </div>
   );
 }

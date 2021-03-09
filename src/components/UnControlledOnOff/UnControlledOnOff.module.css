@@ -1,0 +1,6 @@
+.blocks {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    padding: 3px;
+}

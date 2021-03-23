@@ -1,17 +1,17 @@
 import React from "react";
 
-type ItemsPropsType = {
+/*type ItemsPropsType = {
     title: string
     value: number
-}
+}*/
 
 export type AccordionPropsType = {
     title: string
     collapsed: boolean
     onChange: (value: boolean) => void
     value: boolean
-    items: Array<ItemsPropsType>
-    onClick: (value: string) => void
+    //items: Array<ItemsPropsType>
+    //onClick: (value: string) => void
 }
 
 export function Accordion(props: AccordionPropsType) {

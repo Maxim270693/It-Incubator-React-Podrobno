@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="43e0d66f-5373-4c0b-af20-c07055627074" name="Default Changelist" comment="useMemo">
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/accordion/Accordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/accordion/Accordion.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/ReactMemo.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/ReactMemo.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UseMemo.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UseMemo.stories.tsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="JavaScript File" />
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1pHnFxbX2cHGx2aMauRm5Zbm6LV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Example React memo, UseMemo, UseCallback/my-app" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="ts.external.directory.path" value="D:\react-Kabzda-Kak-Podrobno2\my-app\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\react-Kabzda-Kak-Podrobno2\my-app\src\stories" />
+      <recent name="D:\react-Kabzda-Kak-Podrobno2\my-app\src\components\UnControlledaccordion" />
+      <recent name="D:\react-Kabzda-Kak-Podrobno2\my-app\src\components\UnControlledRating" />
+      <recent name="D:\react-Kabzda-Kak-Podrobno2\my-app\src\components\UnControlledOnOff" />
+      <recent name="D:\react-Kabzda-Kak-Podrobno2\my-app\src\components\accordion" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\react-Kabzda-Kak-Podrobno2\my-app\src\components" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Jest.collapsed should be false">
+    <configuration name="collapsed should be false" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/components/UnControlledaccordion/reducer.test.tsx" />
+      <test-names>
+        <test-name value="collapsed should be false" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="reducer test" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/components/UnControlledaccordion/reducer.test.tsx" />
+      <test-names>
+        <test-name value="reducer test" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="storybook" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="storybook" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.storybook" />
+        <item itemvalue="Jest.collapsed should be false" />
+        <item itemvalue="Jest.reducer test" />
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="43e0d66f-5373-4c0b-af20-c07055627074" name="Default Changelist" comment="" />
+      <created>1614848783527</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614848783527</updated>
+      <workItem from="1614848785710" duration="24000" />
+      <workItem from="1614942455010" duration="1241000" />
+      <workItem from="1614956121413" duration="5097000" />
+      <workItem from="1615304967223" duration="3029000" />
+      <workItem from="1615308120118" duration="491000" />
+      <workItem from="1615568338354" duration="2802000" />
+      <workItem from="1615656042426" duration="1462000" />
+      <workItem from="1615739114824" duration="7012000" />
+      <workItem from="1615891746828" duration="8489000" />
+      <workItem from="1616169668104" duration="4075000" />
+      <workItem from="1616234187266" duration="9200000" />
+      <workItem from="1616318336337" duration="11934000" />
+      <workItem from="1616438364100" duration="21000" />
+      <workItem from="1616489005461" duration="2184000" />
+      <workItem from="1616494425990" duration="2333000" />
+      <workItem from="1616498319205" duration="5850000" />
+    </task>
+    <task id="LOCAL-00001" summary="callbacks">
+      <created>1614964676534</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1614964676534</updated>
+    </task>
+    <task id="LOCAL-00002" summary="callbacks">
+      <created>1615308244546</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1615308244547</updated>
+    </task>
+    <task id="LOCAL-00003" summary="storybook, defaultValue">
+      <created>1615747639096</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1615747639096</updated>
+    </task>
+    <task id="LOCAL-00004" summary="storybook2">
+      <created>1615895279425</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1615895279425</updated>
+    </task>
+    <task id="LOCAL-00005" summary="uncontrolled input">
+      <created>1615900163447</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1615900163447</updated>
+    </task>
+    <task id="LOCAL-00006" summary="controlled input, checkbox, select">
+      <created>1616174891429</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1616174891429</updated>
+    </task>
+    <task id="LOCAL-00007" summary="useReducer">
+      <created>1616241822443</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1616241822443</updated>
+    </task>
+    <task id="LOCAL-00008" summary="React.memo">
+      <created>1616325224052</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1616325224052</updated>
+    </task>
+    <task id="LOCAL-00009" summary="useMemo">
+      <created>1616332422058</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1616332422058</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="callbacks" />
+    <MESSAGE value="storybook, defaultValue" />
+    <MESSAGE value="storybook2" />
+    <MESSAGE value="uncontrolled input" />
+    <MESSAGE value="controlled input, checkbox, select" />
+    <MESSAGE value="useReducer" />
+    <MESSAGE value="React.memo" />
+    <MESSAGE value="useMemo" />
+    <option name="LAST_COMMIT_MESSAGE" value="useMemo" />
+  </component>
+</project>

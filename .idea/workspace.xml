@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43e0d66f-5373-4c0b-af20-c07055627074" name="Default Changelist" comment="useMemo">
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/accordion/Accordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/accordion/Accordion.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/ReactMemo.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/ReactMemo.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UseMemo.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UseMemo.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/UseState.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +39,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Example React memo, UseMemo, UseCallback/my-app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -142,7 +139,8 @@
       <workItem from="1616438364100" duration="21000" />
       <workItem from="1616489005461" duration="2184000" />
       <workItem from="1616494425990" duration="2333000" />
-      <workItem from="1616498319205" duration="5850000" />
+      <workItem from="1616498319205" duration="6517000" />
+      <workItem from="1616589174935" duration="2057000" />
     </task>
     <task id="LOCAL-00001" summary="callbacks">
       <created>1614964676534</created>
@@ -207,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616332422058</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="useCallback">
+      <created>1616506057180</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1616506057180</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,6 +239,7 @@
     <MESSAGE value="useReducer" />
     <MESSAGE value="React.memo" />
     <MESSAGE value="useMemo" />
-    <option name="LAST_COMMIT_MESSAGE" value="useMemo" />
+    <MESSAGE value="useCallback" />
+    <option name="LAST_COMMIT_MESSAGE" value="useCallback" />
   </component>
 </project>

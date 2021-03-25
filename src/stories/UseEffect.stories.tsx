@@ -6,7 +6,7 @@ export default {
 
 //  SideEffect: lesson 20, 6-min: 20-sec;
 
-export const SimpleExample1 = () => {
+export const SimpleExample = () => {
     const [counter,setCounter] = useState(0)
     const [fake,setFake] = useState(0)
 
@@ -31,6 +31,58 @@ export const SimpleExample1 = () => {
             <button onClick={ () => {setCounter(counter + 1)} }>+</button>
             fake, {fake}
             <button onClick={ () => {setFake(fake + 1)} }>+</button>
+        </>
+    )
+}
+export const SetTimeoutExample = () => {
+    const [counter,setCounter] = useState(0)
+    const [fake,setFake] = useState(0)
+
+    console.log('SimpleExample1')
+
+    /*useEffect( () => {
+        setTimeout(() => {
+            console.log('setTimeout')
+            document.title = counter.toString()
+        },1000)
+    },[counter])
+*/
+
+    /*useEffect( () => {
+        setInterval(() => {
+            console.log('setInterval')
+            setCounter(state => state + 1)
+        },1000)
+    },[])*/
+
+    return(
+        <>
+            counter, {counter}
+            <button onClick={ () => {setCounter(counter + 1)} }>+</button>
+            fake, {fake}
+            <button onClick={ () => {setFake(fake + 1)} }>+</button>
+        </>
+    )
+}
+
+
+export const TimeExample = () => {
+    console.log('SimpleExample1')
+
+    const [time, setTime] = useState(new Date())
+
+    useEffect(() => {
+        setTimeout(() => {
+            console.log('setInterval')
+            let hours = new Date()
+            setTime(hours)
+        },1000)
+    },[new Date()])
+
+
+    return(
+        <>
+            time:  {time.toLocaleTimeString()}
         </>
     )
 }

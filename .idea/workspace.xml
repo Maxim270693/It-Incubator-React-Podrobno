@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="43e0d66f-5373-4c0b-af20-c07055627074" name="Default Changelist" comment="useState">
-      <change afterPath="$PROJECT_DIR$/src/stories/UseEffect.stories.tsx" afterDir="false" />
+    <list default="true" id="43e0d66f-5373-4c0b-af20-c07055627074" name="Default Changelist" comment="useEffect">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UseEffect.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UseEffect.stories.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +60,7 @@
       <recent name="D:\react-Kabzda-Kak-Podrobno2\my-app\src\components" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.collapsed should be false">
+  <component name="RunManager" selected="npm.storybook">
     <configuration name="collapsed should be false" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -141,7 +141,8 @@
       <workItem from="1616494425990" duration="2333000" />
       <workItem from="1616498319205" duration="6517000" />
       <workItem from="1616589174935" duration="2695000" />
-      <workItem from="1616689698110" duration="3000000" />
+      <workItem from="1616689698110" duration="6631000" />
+      <workItem from="1616707058594" duration="1658000" />
     </task>
     <task id="LOCAL-00001" summary="callbacks">
       <created>1614964676534</created>
@@ -220,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616593427600</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="useEffect">
+      <created>1616694479894</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1616694479894</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,6 +257,7 @@
     <MESSAGE value="useMemo" />
     <MESSAGE value="useCallback" />
     <MESSAGE value="useState" />
-    <option name="LAST_COMMIT_MESSAGE" value="useState" />
+    <MESSAGE value="useEffect" />
+    <option name="LAST_COMMIT_MESSAGE" value="useEffect" />
   </component>
 </project>

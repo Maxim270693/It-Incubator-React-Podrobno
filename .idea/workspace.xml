@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43e0d66f-5373-4c0b-af20-c07055627074" name="Default Changelist" comment="useEffect">
+      <change afterPath="$PROJECT_DIR$/src/components/clock/Clock.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/clock/Clock.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UseEffect.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UseEffect.stories.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +40,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/clock" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -50,11 +51,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\react-Kabzda-Kak-Podrobno2\my-app\src\components\clock" />
       <recent name="D:\react-Kabzda-Kak-Podrobno2\my-app\src\stories" />
       <recent name="D:\react-Kabzda-Kak-Podrobno2\my-app\src\components\UnControlledaccordion" />
       <recent name="D:\react-Kabzda-Kak-Podrobno2\my-app\src\components\UnControlledRating" />
       <recent name="D:\react-Kabzda-Kak-Podrobno2\my-app\src\components\UnControlledOnOff" />
-      <recent name="D:\react-Kabzda-Kak-Podrobno2\my-app\src\components\accordion" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\react-Kabzda-Kak-Podrobno2\my-app\src\components" />
@@ -142,7 +143,7 @@
       <workItem from="1616498319205" duration="6517000" />
       <workItem from="1616589174935" duration="2695000" />
       <workItem from="1616689698110" duration="6631000" />
-      <workItem from="1616707058594" duration="1658000" />
+      <workItem from="1616707058594" duration="4819000" />
     </task>
     <task id="LOCAL-00001" summary="callbacks">
       <created>1614964676534</created>
@@ -228,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616694479894</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="useEffect">
+      <created>1616708751837</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1616708751837</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

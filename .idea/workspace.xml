@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="43e0d66f-5373-4c0b-af20-c07055627074" name="Default Changelist" comment="useMemo">
-      <change afterPath="$PROJECT_DIR$/src/stories/UseState.stories.tsx" afterDir="false" />
+    <list default="true" id="43e0d66f-5373-4c0b-af20-c07055627074" name="Default Changelist" comment="useState">
+      <change afterPath="$PROJECT_DIR$/src/stories/UseEffect.stories.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -140,7 +140,8 @@
       <workItem from="1616489005461" duration="2184000" />
       <workItem from="1616494425990" duration="2333000" />
       <workItem from="1616498319205" duration="6517000" />
-      <workItem from="1616589174935" duration="2057000" />
+      <workItem from="1616589174935" duration="2695000" />
+      <workItem from="1616689698110" duration="3000000" />
     </task>
     <task id="LOCAL-00001" summary="callbacks">
       <created>1614964676534</created>
@@ -212,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616506057180</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="useState">
+      <created>1616593427600</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1616593427600</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,6 +248,7 @@
     <MESSAGE value="React.memo" />
     <MESSAGE value="useMemo" />
     <MESSAGE value="useCallback" />
-    <option name="LAST_COMMIT_MESSAGE" value="useCallback" />
+    <MESSAGE value="useState" />
+    <option name="LAST_COMMIT_MESSAGE" value="useState" />
   </component>
 </project>

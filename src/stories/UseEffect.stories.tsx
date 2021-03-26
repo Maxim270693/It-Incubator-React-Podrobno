@@ -86,3 +86,54 @@ export const TimeExample = () => {
         </>
     )
 }
+export const ResetEffectExample = () => {
+    const [counter, setCounter] = useState(0)
+
+    console.log('Component rendered')
+
+    useEffect(() => {
+        console.log('Effect occurred')
+
+        return () => {
+            console.log('RESET EFFECT')
+        }
+    },[counter])
+
+    const increase = () => {setCounter(counter + 1)}
+
+
+    return(
+        <>
+           Hello, counter: {counter} <button onClick={increase}>+</button>
+        </>
+    )
+}
+
+export const KeysTrackerExample = () => {
+    const [text, setText] = useState('')
+
+    console.log('Component rendered with' + text)
+
+    useEffect(() => {
+        const handler = (e: KeyboardEvent) => {
+            console.log(e.key)
+            setText((state) => state + e.key )
+        }
+
+        window.addEventListener( 'keypress', handler)
+
+        return () => {
+            window.removeEventListener('keypress', handler)
+        }
+
+    },[])
+
+
+
+
+    return(
+        <>
+           Typed text: {text}
+        </>
+    )
+}

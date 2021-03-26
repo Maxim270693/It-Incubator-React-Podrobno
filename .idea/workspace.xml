@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="43e0d66f-5373-4c0b-af20-c07055627074" name="Default Changelist" comment="useEffect, clearInterval">
-      <change afterPath="$PROJECT_DIR$/src/components/clock/AnalogClockView.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/clock/AnalogClockView.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/clock/DigitalClockView.tsx" afterDir="false" />
+    <list default="true" id="43e0d66f-5373-4c0b-af20-c07055627074" name="Default Changelist" comment="Clock">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/clock/Clock.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/clock/Clock.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/clock/Clock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/clock/Clock.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UseEffect.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UseEffect.stories.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +143,7 @@
       <workItem from="1616589174935" duration="2695000" />
       <workItem from="1616689698110" duration="6631000" />
       <workItem from="1616707058594" duration="5072000" />
-      <workItem from="1616756170647" duration="2467000" />
+      <workItem from="1616756170647" duration="7116000" />
     </task>
     <task id="LOCAL-00001" summary="callbacks">
       <created>1614964676534</created>
@@ -247,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616712911474</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Clock">
+      <created>1616758670153</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1616758670153</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,6 +281,7 @@
     <MESSAGE value="useState" />
     <MESSAGE value="useEffect" />
     <MESSAGE value="useEffect, clearInterval" />
-    <option name="LAST_COMMIT_MESSAGE" value="useEffect, clearInterval" />
+    <MESSAGE value="Clock" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clock" />
   </component>
 </project>
